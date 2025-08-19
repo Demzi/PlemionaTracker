@@ -1,0 +1,826 @@
+{
+    "buildings": {
+        "woodCutter": {
+            "levels": {
+                "1": {
+                    "cost": {
+                        "wood": 50,
+                        "clay": 60,
+                        "iron": 40
+                    },
+                    "population": 5,
+                    "produce": 30
+                },
+                "2": {
+                    "cost": {
+                        "wood": 63,
+                        "clay": 77,
+                        "iron": 50
+                    },
+                    "population": 6,
+                    "produce": 35
+                },
+                "3": {
+                    "cost": {
+                        "wood": 78,
+                        "clay": 98,
+                        "iron": 63
+                    },
+                    "population": 7,
+                    "produce": 41
+                },
+                "4": {
+                    "cost": {
+                        "wood": 98,
+                        "clay": 124,
+                        "iron": 77
+                    },
+                    "population": 8,
+                    "produce": 47
+                },
+                "5": {
+                    "cost": {
+                        "wood": 122,
+                        "clay": 159,
+                        "iron": 96
+                    },
+                    "population": 9,
+                    "produce": 55
+                },
+                "6": {
+                    "cost": {
+                        "wood": 153,
+                        "clay": 202,
+                        "iron": 120
+                    },
+                    "population": 10,
+                    "produce": 64
+                },
+                "7": {
+                    "cost": {
+                        "wood": 191,
+                        "clay": 258,
+                        "iron": 149
+                    },
+                    "population": 12,
+                    "produce": 74
+                },
+                "8": {
+                    "cost": {
+                        "wood": 238,
+                        "clay": 329,
+                        "iron": 185
+                    },
+                    "population": 14,
+                    "produce": 86
+                },
+                "9": {
+                    "cost": {
+                        "wood": 298,
+                        "clay": 419,
+                        "iron": 231
+                    },
+                    "population": 16,
+                    "produce": 100
+                },
+                "10": {
+                    "cost": {
+                        "wood": 373,
+                        "clay": 534,
+                        "iron": 287
+                    },
+                    "population": 18,
+                    "produce": 117
+                },
+                "11": {
+                    "cost": {
+                        "wood": 466,
+                        "clay": 681,
+                        "iron": 358
+                    },
+                    "population": 21,
+                    "produce": 136
+                },
+                "12": {
+                    "cost": {
+                        "wood": 582,
+                        "clay": 868,
+                        "iron": 446
+                    },
+                    "population": 24,
+                    "produce": 158
+                },
+                "13": {
+                    "cost": {
+                        "wood": 728,
+                        "clay": 1107,
+                        "iron": 555
+                    },
+                    "population": 28,
+                    "produce": 184
+                },
+                "14": {
+                    "cost": {
+                        "wood": 909,
+                        "clay": 1412,
+                        "iron": 691
+                    },
+                    "population": 33,
+                    "produce": 214
+                },
+                "15": {
+                    "cost": {
+                        "wood": 1137,
+                        "clay": 1800,
+                        "iron": 860
+                    },
+                    "population": 38,
+                    "produce": 249
+                },
+                "16": {
+                    "cost": {
+                        "wood": 1421,
+                        "clay": 2295,
+                        "iron": 1071
+                    },
+                    "population": 43,
+                    "produce": 289
+                },
+                "17": {
+                    "cost": {
+                        "wood": 1776,
+                        "clay": 2926,
+                        "iron": 1333
+                    },
+                    "population": 50,
+                    "produce": 337
+                },
+                "18": {
+                    "cost": {
+                        "wood": 2220,
+                        "clay": 3731,
+                        "iron": 1659
+                    },
+                    "population": 58,
+                    "produce": 391
+                },
+                "19": {
+                    "cost": {
+                        "wood": 2776,
+                        "clay": 4757,
+                        "iron": 2066
+                    },
+                    "population": 67,
+                    "produce": 455
+                },
+                "20": {
+                    "cost": {
+                        "wood": 3469,
+                        "clay": 6065,
+                        "iron": 2572
+                    },
+                    "population": 77,
+                    "produce": 530
+                },
+                "21": {
+                    "cost": {
+                        "wood": 4337,
+                        "clay": 7733,
+                        "iron": 3202
+                    },
+                    "population": 89,
+                    "produce": 616
+                },
+                "22": {
+                    "cost": {
+                        "wood": 5421,
+                        "clay": 9860,
+                        "iron": 3987
+                    },
+                    "population": 103,
+                    "produce": 717
+                },
+                "23": {
+                    "cost": {
+                        "wood": 6776,
+                        "clay": 12571,
+                        "iron": 4963
+                    },
+                    "population": 119,
+                    "produce": 833
+                },
+                "24": {
+                    "cost": {
+                        "wood": 8470,
+                        "clay": 16028,
+                        "iron": 6180
+                    },
+                    "population": 138,
+                    "produce": 969
+                },
+                "25": {
+                    "cost": {
+                        "wood": 10588,
+                        "clay": 20436,
+                        "iron": 7694
+                    },
+                    "population": 159,
+                    "produce": 1127
+                },
+                "26": {
+                    "cost": {
+                        "wood": 13235,
+                        "clay": 26056,
+                        "iron": 9578
+                    },
+                    "population": 183,
+                    "produce": 1311
+                },
+                "27": {
+                    "cost": {
+                        "wood": 16544,
+                        "clay": 33221,
+                        "iron": 11925
+                    },
+                    "population": 212,
+                    "produce": 1525
+                },
+                "28": {
+                    "cost": {
+                        "wood": 20680,
+                        "clay": 42357,
+                        "iron": 14847
+                    },
+                    "population": 245,
+                    "produce": 1774
+                },
+                "29": {
+                    "cost": {
+                        "wood": 25849,
+                        "clay": 54005,
+                        "iron": 18484
+                    },
+                    "population": 283,
+                    "produce": 2063
+                },
+                "30": {
+                    "cost": {
+                        "wood": 32312,
+                        "clay": 68857,
+                        "iron": 23013
+                    },
+                    "population": 326,
+                    "produce": 2400
+                }
+            }
+        },
+        "clayYard": {
+            "levels": {
+                "1": {
+                    "cost": {
+                        "wood": 65,
+                        "clay": 50,
+                        "iron": 40
+                    },
+                    "population": 10,
+                    "produce": 30
+                },
+                "2": {
+                    "cost": {
+                        "wood": 83,
+                        "clay": 63,
+                        "iron": 50
+                    },
+                    "population": 11,
+                    "produce": 35
+                },
+                "3": {
+                    "cost": {
+                        "wood": 105,
+                        "clay": 80,
+                        "iron": 62
+                    },
+                    "population": 13,
+                    "produce": 41
+                },
+                "4": {
+                    "cost": {
+                        "wood": 133,
+                        "clay": 101,
+                        "iron": 76
+                    },
+                    "population": 15,
+                    "produce": 47
+                },
+                "5": {
+                    "cost": {
+                        "wood": 169,
+                        "clay": 128,
+                        "iron": 95
+                    },
+                    "population": 17,
+                    "produce": 55
+                },
+                "6": {
+                    "cost": {
+                        "wood": 215,
+                        "clay": 162,
+                        "iron": 117
+                    },
+                    "population": 19,
+                    "produce": 64
+                },
+                "7": {
+                    "cost": {
+                        "wood": 273,
+                        "clay": 205,
+                        "iron": 145
+                    },
+                    "population": 22,
+                    "produce": 74
+                },
+                "8": {
+                    "cost": {
+                        "wood": 346,
+                        "clay": 259,
+                        "iron": 180
+                    },
+                    "population": 25,
+                    "produce": 86
+                },
+                "9": {
+                    "cost": {
+                        "wood": 440,
+                        "clay": 328,
+                        "iron": 224
+                    },
+                    "population": 29,
+                    "produce": 100
+                },
+                "10": {
+                    "cost": {
+                        "wood": 559,
+                        "clay": 415,
+                        "iron": 277
+                    },
+                    "population": 33,
+                    "produce": 117
+                },
+                "11": {
+                    "cost": {
+                        "wood": 709,
+                        "clay": 525,
+                        "iron": 344
+                    },
+                    "population": 37,
+                    "produce": 136
+                },
+                "12": {
+                    "cost": {
+                        "wood": 901,
+                        "clay": 664,
+                        "iron": 426
+                    },
+                    "population": 42,
+                    "produce": 158
+                },
+                "13": {
+                    "cost": {
+                        "wood": 1144,
+                        "clay": 840,
+                        "iron": 529
+                    },
+                    "population": 48,
+                    "produce": 184
+                },
+                "14": {
+                    "cost": {
+                        "wood": 1453,
+                        "clay": 1062,
+                        "iron": 655
+                    },
+                    "population": 55,
+                    "produce": 214
+                },
+                "15": {
+                    "cost": {
+                        "wood": 1846,
+                        "clay": 1343,
+                        "iron": 813
+                    },
+                    "population": 63,
+                    "produce": 249
+                },
+                "16": {
+                    "cost": {
+                        "wood": 2344,
+                        "clay": 1700,
+                        "iron": 1008
+                    },
+                    "population": 71,
+                    "produce": 289
+                },
+                "17": {
+                    "cost": {
+                        "wood": 2977,
+                        "clay": 2150,
+                        "iron": 1250
+                    },
+                    "population": 81,
+                    "produce": 337
+                },
+                "18": {
+                    "cost": {
+                        "wood": 3781,
+                        "clay": 2720,
+                        "iron": 1550
+                    },
+                    "population": 93,
+                    "produce": 391
+                },
+                "19": {
+                    "cost": {
+                        "wood": 4802,
+                        "clay": 3440,
+                        "iron": 1922
+                    },
+                    "population": 103,
+                    "produce": 455
+                },
+                "20": {
+                    "cost": {
+                        "wood": 6098,
+                        "clay": 4352,
+                        "iron": 2383
+                    },
+                    "population": 121,
+                    "produce": 530
+                },
+                "21": {
+                    "cost": {
+                        "wood": 7744,
+                        "clay": 5505,
+                        "iron": 2955
+                    },
+                    "population": 137,
+                    "produce": 616
+                },
+                "22": {
+                    "cost": {
+                        "wood": 9835,
+                        "clay": 6964,
+                        "iron": 3664
+                    },
+                    "population": 157,
+                    "produce": 717
+                },
+                "23": {
+                    "cost": {
+                        "wood": 12491,
+                        "clay": 8810,
+                        "iron": 4543
+                    },
+                    "population": 179,
+                    "produce": 833
+                },
+                "24": {
+                    "cost": {
+                        "wood": 15863,
+                        "clay": 11144,
+                        "iron": 5633
+                    },
+                    "population": 204,
+                    "produce": 969
+                },
+                "25": {
+                    "cost": {
+                        "wood": 20147,
+                        "clay": 14098,
+                        "iron": 6985
+                    },
+                    "population": 232,
+                    "produce": 1127
+                },
+                "26": {
+                    "cost": {
+                        "wood": 25586,
+                        "clay": 17833,
+                        "iron": 8662
+                    },
+                    "population": 265,
+                    "produce": 1311
+                },
+                "27": {
+                    "cost": {
+                        "wood": 32495,
+                        "clay": 22559,
+                        "iron": 10740
+                    },
+                    "population": 302,
+                    "produce": 1525
+                },
+                "28": {
+                    "cost": {
+                        "wood": 41268,
+                        "clay": 28537,
+                        "iron": 13318
+                    },
+                    "population": 344,
+                    "produce": 1774
+                },
+                "29": {
+                    "cost": {
+                        "wood": 52410,
+                        "clay": 36100,
+                        "iron": 16515
+                    },
+                    "population": 392,
+                    "produce": 2063
+                },
+                "30": {
+                    "cost": {
+                        "wood": 66561,
+                        "clay": 45666,
+                        "iron": 20478
+                    },
+                    "population": 447,
+                    "produce": 2400
+                }
+            }
+        },
+        "ironWorks": {
+            "levels": {
+                "1": {
+                    "cost": {
+                        "wood": 75,
+                        "clay": 65,
+                        "iron": 70
+                    },
+                    "population": 10,
+                    "produce": 30
+                },
+                "2": {
+                    "cost": {
+                        "wood": 94,
+                        "clay": 83,
+                        "iron": 87
+                    },
+                    "population": 12,
+                    "produce": 35
+                },
+                "3": {
+                    "cost": {
+                        "wood": 118,
+                        "clay": 106,
+                        "iron": 108
+                    },
+                    "population": 14,
+                    "produce": 41
+                },
+                "4": {
+                    "cost": {
+                        "wood": 147,
+                        "clay": 135,
+                        "iron": 133
+                    },
+                    "population": 16,
+                    "produce": 47
+                },
+                "5": {
+                    "cost": {
+                        "wood": 184,
+                        "clay": 172,
+                        "iron": 165
+                    },
+                    "population": 19,
+                    "produce": 55
+                },
+                "6": {
+                    "cost": {
+                        "wood": 231,
+                        "clay": 219,
+                        "iron": 205
+                    },
+                    "population": 22,
+                    "produce": 64
+                },
+                "7": {
+                    "cost": {
+                        "wood": 289,
+                        "clay": 279,
+                        "iron": 254
+                    },
+                    "population": 26,
+                    "produce": 74
+                },
+                "8": {
+                    "cost": {
+                        "wood": 362,
+                        "clay": 352,
+                        "iron": 316
+                    },
+                    "population": 30,
+                    "produce": 86
+                },
+                "9": {
+                    "cost": {
+                        "wood": 453,
+                        "clay": 454,
+                        "iron": 391
+                    },
+                    "population": 35,
+                    "produce": 100
+                },
+                "10": {
+                    "cost": {
+                        "wood": 567,
+                        "clay": 579,
+                        "iron": 485
+                    },
+                    "population": 41,
+                    "produce": 117
+                },
+                "11": {
+                    "cost": {
+                        "wood": 710,
+                        "clay": 738,
+                        "iron": 602
+                    },
+                    "population": 48,
+                    "produce": 136
+                },
+                "12": {
+                    "cost": {
+                        "wood": 889,
+                        "clay": 941,
+                        "iron": 746
+                    },
+                    "population": 56,
+                    "produce": 158
+                },
+                "13": {
+                    "cost": {
+                        "wood": 1113,
+                        "clay": 1200,
+                        "iron": 925
+                    },
+                    "population": 66,
+                    "produce": 184
+                },
+                "14": {
+                    "cost": {
+                        "wood": 1393,
+                        "clay": 1529,
+                        "iron": 1147
+                    },
+                    "population": 77,
+                    "produce": 214
+                },
+                "15": {
+                    "cost": {
+                        "wood": 1744,
+                        "clay": 1950,
+                        "iron": 1422
+                    },
+                    "population": 90,
+                    "produce": 249
+                },
+                "16": {
+                    "cost": {
+                        "wood": 2183,
+                        "clay": 2486,
+                        "iron": 1764
+                    },
+                    "population": 105,
+                    "produce": 289
+                },
+                "17": {
+                    "cost": {
+                        "wood": 2734,
+                        "clay": 3170,
+                        "iron": 2187
+                    },
+                    "population": 123,
+                    "produce": 337
+                },
+                "18": {
+                    "cost": {
+                        "wood": 3422,
+                        "clay": 4042,
+                        "iron": 2712
+                    },
+                    "population": 144,
+                    "produce": 391
+                },
+                "19": {
+                    "cost": {
+                        "wood": 4285,
+                        "clay": 5153,
+                        "iron": 3363
+                    },
+                    "population": 169,
+                    "produce": 455
+                },
+                "20": {
+                    "cost": {
+                        "wood": 5365,
+                        "clay": 6571,
+                        "iron": 4170
+                    },
+                    "population": 197,
+                    "produce": 530
+                },
+                "21": {
+                    "cost": {
+                        "wood": 6717,
+                        "clay": 8378,
+                        "iron": 5170
+                    },
+                    "population": 231,
+                    "produce": 616
+                },
+                "22": {
+                    "cost": {
+                        "wood": 8409,
+                        "clay": 10681,
+                        "iron": 6411
+                    },
+                    "population": 270,
+                    "produce": 717
+                },
+                "23": {
+                    "cost": {
+                        "wood": 10528,
+                        "clay": 13619,
+                        "iron": 7950
+                    },
+                    "population": 316,
+                    "produce": 833
+                },
+                "24": {
+                    "cost": {
+                        "wood": 13181,
+                        "clay": 17364,
+                        "iron": 9858
+                    },
+                    "population": 370,
+                    "produce": 969
+                },
+                "25": {
+                    "cost": {
+                        "wood": 15503,
+                        "clay": 22139,
+                        "iron": 12224
+                    },
+                    "population": 433,
+                    "produce": 1127
+                },
+                "26": {
+                    "cost": {
+                        "wood": 20662,
+                        "clay": 28227,
+                        "iron": 15158
+                    },
+                    "population": 507,
+                    "produce": 1311
+                },
+                "27": {
+                    "cost": {
+                        "wood": 25869,
+                        "clay": 35990,
+                        "iron": 18796
+                    },
+                    "population": 593,
+                    "produce": 1525
+                },
+                "28": {
+                    "cost": {
+                        "wood": 32388,
+                        "clay": 45887,
+                        "iron": 23307
+                    },
+                    "population": 693,
+                    "produce": 1774
+                },
+                "29": {
+                    "cost": {
+                        "wood": 40549,
+                        "clay": 58506,
+                        "iron": 28900
+                    },
+                    "population": 811,
+                    "produce": 2063
+                },
+                "30": {
+                    "cost": {
+                        "wood": 50768,
+                        "clay": 74595,
+                        "iron": 35837
+                    },
+                    "population": 949,
+                    "produce": 2400
+                }
+            }
+        }
+    }
+}
